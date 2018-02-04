@@ -23,6 +23,6 @@ function setup (){
 var line2 = 0;
 while (line2 < 10) {
   stroke(x1+x1)
-  line(x1+x1, 0, random(width), random(height));
+  line(random(width), random(height), x1+x1, 0);
   line2 = line2 + 1;
 }
