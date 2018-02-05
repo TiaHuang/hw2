@@ -3,6 +3,8 @@
 function setup (){
   createCanvas (340, 340);
 }
+
+var x1 = 170
     
 var line2 = 0;
 while (line2 < 10) {
