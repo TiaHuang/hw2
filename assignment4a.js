@@ -46,6 +46,13 @@ rect (a, c, b, c);
 fill(255, 0, 0); //red
 rect (c, b, a, c);
 
+
+line (a, b, a, b);
+line (a, c, a, c);
+line (b, c, b, c);
+line (b, a, b, a);
+line (c, a, c, a);
+line (c, b, c, b);
 line (0, b, 340, b);
 line (0, c, 340, c);
 line (0, a, 340, a);
@@ -55,6 +62,12 @@ line (0, c, 340, c);
 line (a, 0, a, 340);
 line (b, 0, b, 340);
 line (c, 0, c, 340);
+line (a + b, 0, a + b, 340);
+line (a - b, 0, a - b, 340);
+line (b + c, 0, b + c, 340);
+line (a + c, 0, a + c, 340);
+line (340 - a, 0, 340 - a, 340);
+line (340 - b, 0, 340 - b, 340);
 line (340 - c, 0, 340 - c, 340);
 
 //frame
