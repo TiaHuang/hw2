@@ -46,6 +46,17 @@ rect (a, c, b, c);
 fill(255, 0, 0); //red
 rect (c, b, a, c);
 
+line (0, b, 340, b);
+line (0, c, 340, c);
+line (0, a, 340, a);
+line (0, a, 340, a);
+line (0, b, 340, b);
+line (0, c, 340, c);
+line (a, 0, a, 340);
+line (b, 0, b, 340);
+line (c, 0, c, 340);
+line (340 - c, 0, 340 - c, 340);
+
 //frame
 strokeWeight(15);
 stroke = 50;
